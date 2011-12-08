@@ -1,5 +1,5 @@
-dep('bootstrap chef client'){
-  define_var(:chef_version, :defailt => "0.10.0", :message => "What version of Chef do you want to install?")
+dep('bootstrap chef solo'){
+  define_var(:chef_version, :defailt => "0.10.4", :message => "What version of Chef do you want to install?")
 
   setup {
     set :server_install, false
